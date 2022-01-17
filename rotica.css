@@ -1,0 +1,37 @@
+* {margin:  0; padding:  0; font-family: arial;}
+
+body {background: #f1f5f8;}
+
+nav {background: #fff; padding:  15px 0; box-shadow: 0 1px 15px grey;}
+.nav-center {display: flex; justify-content: space-evenly;}
+.nav-center h4 {font-size:  19px; letter-spacing: 3px; color: #49A6E9}
+.nav-links li {display:  inline-block; margin-right:  20px;}
+.nav-links li a {text-decoration:  none; color:  #111; font-weight: 600; font-size:  18px; letter-spacing: 3px;} 
+.nav-links li a:hover {color: #49A6E9}
+.container {text-align: center; margin-top:  16%; }
+.container h2 {font-size: 40px; margin-bottom: 30px;background: #222222; display: inline-block; color:  #fff; padding: 15px; border-radius: 10px; letter-spacing: 3px;}
+.color {color: #49A6E9}
+.btn {display:  block; margin: 0 auto; padding: 12px 25px; font-size:  17px; font-weight: bold; background: none; border:  none; border: 2px solid #222222; border-radius: 10px; letter-spacing: 3px; transition:  0.5s;}
+.btn:hover {background:  #222222; color:  #fff; cursor: pointer;}
+
+
+.pallete-box {display: flex; justify-content: space-between; width:  90%; margin: 0 auto; margin-top:  -50px;}
+.pallete-col {background:  #49A6E9; height:  30vh; width: 20%; margin-right:  2px;}
+.pallete-title {display: flex; justify-content: space-between; width:  90%; margin: 0 auto; margin-top:  20px; margin-bottom: 60px;}
+.p-col {width:  20%; font-size:  17px; font-weight: 600;}
+
+
+
+@media screen and (max-width:  600px) {
+	.nav-center {justify-content:  space-between; width:  95%; margin:  0 auto;}
+	.nav-links li {margin-right:  10px;}
+	.nav-links li a {font-size:  12px;}
+	.nav-center h4 {font-size:  15px;}
+	.container {margin-top:  50%;}
+	.container h2 {font-size: 25px;}
+
+	.pallete-box {display:  block;}
+	.pallete-col {width:  100%; margin-bottom: 5px;}
+	.pallete-title {display:  none;}
+	
+}
